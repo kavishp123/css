@@ -1,0 +1,26 @@
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orchid;
+    cursor:pointer;
+    flex: auto;
+    vertical-align: middle;
+    gap: 2px;;
+}
+
+/* Class Selector */
+.text-warning{
+    background-color: yellow;
+    color: red;
+}
+/* Id selector */
+
+#foo{
+    background-color: bisque;
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+/* Inline top most preference */
+/* then Internal then External */
+
