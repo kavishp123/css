@@ -1,0 +1,90 @@
+
+.ml {
+  margin-left: 20px;
+  margin-top: 12px;
+  border: orangered solid 2px;
+  cursor: inherit;
+  color: rgb(from red r g b / 0.5);
+  font-family: "Bungee Spice", cursive;
+  background-color: black;
+  
+}
+
+.pr {
+  padding-right: 20px;
+  
+}
+
+.border-warning {
+  border: 2px solid yellow;
+}
+/* CHild Selector */
+.class1 > p{
+  color:palevioletred;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bolde;
+  
+}
+
+/* Descendent selector, Child selector, Sibling Selector & General sibling selector */
+
+.class2,.class1{
+  color:rgb(0, 208, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px orangered;
+  text-shadow:  1.5px 2.5px 7px;
+  -webkit-text-stroke-width: thin;
+  
+  
+ 
+  
+}
+/* Adjacent Selector */
+.class1 + p{
+  color:aqua;
+}
+
+#sibling > p{
+  color: rgb(255, 140, 0);
+}
+
+.box {
+  background-color: orangered;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  animation-name: rotate;
+  animation-duration:3s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+  padding: 40px;
+}
+
+.box:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.stroke-text{
+  color:greenyellow;
+  text-shadow:10px 0 0 red,0 8px 0 red,-10px 0 0 red,0 -8px 0 red;
+  font-size: 90px;
+  
+}
+.vh-class{
+  height: 100vh;
+  border: 3px solid rgb(182, 255, 35);
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+

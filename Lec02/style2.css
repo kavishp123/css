@@ -10,7 +10,7 @@
 
 /* Everthing is seleted using * */
 
-/* .parent-div{
+.parent-div{
     color: orangered;
     border: 3px solid salmon;
     padding: 15px;
@@ -18,10 +18,10 @@
     width: 600px;
     cursor: e-resize;
     box-sizing: border-box;
-} */
+}
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
