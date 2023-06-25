@@ -1,0 +1,9 @@
+#Substack{
+    border:2px dashed red;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: dashed;
+}

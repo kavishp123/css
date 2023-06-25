@@ -1,0 +1,12 @@
+.bg-prop {
+    background: no-repeat center/80% url("SHIN.png");
+}
+
+.para {
+  opacity: 100%;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 45px;
+  color: greenyellow;
+  
+}

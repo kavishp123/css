@@ -1,0 +1,17 @@
+li {
+  font-size: 3rem;
+}
+.stroke-text {
+  color: greenyellow;
+  text-shadow: 10px 0 0 red, 0 8px 0 red, -10px 0 0 red, 0 -8px 0 red;
+  font-size: 90px;
+  font-family: "Courier New", Courier, monospace;
+  animation: 3s infinite alternate slidein;
+}
+html {
+  font-size: 10px;
+  text-shadow: inherit;
+}
+/* li {
+    
+  } */
