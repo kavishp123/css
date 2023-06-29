@@ -1,0 +1,35 @@
+.box{
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+}
+.box1{
+    border: 2px solid red;
+    /* position: static; */
+    border-radius: 5px;
+
+}
+.box2{
+    border: 2px solid magenta;
+    /* position: relative; */
+    left: 20px;
+    bottom: 25px;
+    border-radius: 3px;
+}
+.box3{
+    border: 2px solid olivedrab;
+    position: absolute;
+    border-radius: 5px;
+}
+.box4{
+    border: 2px solid chartreuse;
+    position: relative;
+    border-radius: 5px;
+
+}
+.box5{
+    border: 2px solid coral;
+    border-radius: 5px;
+    box-shadow: inset;
+    position: relative;
+}
