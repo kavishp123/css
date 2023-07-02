@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.box {
+  background-color: red;
+  color: azure;
+  margin: 2px;
+  height: 100px;
+  width: 100px;
+  /* text-align: center; */
+  /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction:column;
+  /* flex-flow: row wrap-reverse; */
+  height: 100vh;
+  width: 500px;
+  border: 2px solid black;
+  /* flex-wrap: wrap-reverse; */
+  justify-content: flex-start;
+  align-items: start;
+  
+}
+/* By default order is 0 */
+#box2 {
+  order: -1;
+  /* flex-grow: 1; */
+  flex-shrink: 2;
+  align-self: center;
+}
+
+#box3 {
+  order: -2;
+  align-self:end;
+  flex-basis: 100px;
+  /* flex-grow: 1; */
+}
+/* If the spaces are empty and you want to fill you can use flex-grow and eqaully divide by
+ flex-grow:1 fir sab bhar jaayega */
+ #box4{
+    align-self: center;
+ }
